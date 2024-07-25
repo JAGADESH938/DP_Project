@@ -1,0 +1,94 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: "roboto";
+}
+.Background{
+    background-color: rgb(255, 255, 255);
+    /* height: 100vh; */
+}
+.Top-Section1{
+    background-color: #fff;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+}
+.Top-Section1 p{
+    font-size: 15px;
+    font-weight: 500;
+}
+.ButtonLang{
+    height: 25px;
+    width: 60px;
+    font-weight: bold;
+    font-size: 10px;
+    border-radius: 5px;
+    border-width: 0px;
+    color: #fff;
+    background-color: rgb(79, 201, 79);
+}
+.Heading-section{
+    background-color: #f4f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+.Main-Heading{
+    font-size: 25px;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+}
+.Nav-Section{
+    background-color: #1c61ac;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+.Nav-Section ul{
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    font-weight: 500;
+    list-style: none;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.Main-Image{
+    background-image: url("https://res.cloudinary.com/dm4jytitp/image/upload/v1721922738/banner_rdyjp4.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 30vh;
+    margin-top: 0px;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+}
+.Card{
+    width: 30%;
+    background-color: #FFFFFF99;
+    text-align: center;
+    border:#1c61ac;
+    padding: 5px;
+    color: #000;
+}
+.Card h1{
+    font-size: 30px;
+}
+.Buttonsection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Futter-section{
+    background-color: #0787c4;
+}
+.Image{
+    border-radius: 50%;
+    height: 100px;
+    margin: 10px;
+}
